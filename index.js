@@ -87,7 +87,10 @@ const CourseInfo = {
          console.log([LearnerSubmissions]);
 
 
-        
+         let newScore = LearnerSubmissions.score = (47 + 50) / (150 / 50);
+
+         console.log(newScore);
+
 
  }
 
