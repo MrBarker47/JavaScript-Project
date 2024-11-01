@@ -102,19 +102,53 @@ function getLearnerData(course, ag, submissions) {
 
 const result = getLearnerData(CourseInfo, AssignmentGroup, LearnerSubmissions);
 
+//functions
+function tasks() {
+  for(let i = 0; i < AssignmentGroup.length; i++) {
 
-let info = CourseInfo;
-let assignment = AssignmentGroup;
-let newLearner = LearnerSubmissions;
+  }
+
+  
+}
+
+
+
+//Variables
+function variable() {
+  let info = Object.keys(CourseInfo);
+  console.log(info);
+  let assignment = Object.keys(AssignmentGroup);
+  console.log(assignment);
+  let newLearner = Object.keys(LearnerSubmissions);
+  console.log(newLearner);
+}
+
+let holder = "";
+let holder2 = "";
+let holder3 = "";
+
+
+
 
 try {
   console.log(result);
-  //CourseInfo
-  //AssignmentGroup
-  //LearnerSubmissions
+  if(AssignmentGroup.id[1] === 50) {
+    console.log("correct")
+  } else {
+    console.log("change the points")
+  }
+
+  if(AssignmentGroup.id[2] === 150) {
+     console.log("correct point")
+  } else {
+    console.log("change points")
+  }
+
+
+
 }
 catch(error) {
-  console.log(error);
+  console.result(error);
 }
 
 
