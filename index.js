@@ -102,14 +102,15 @@ function getLearnerData(course, ag, submissions) {
 
 const result = getLearnerData(CourseInfo, AssignmentGroup, LearnerSubmissions);
 
-//functions
+//functions loops
 function tasks() {
   for(let i = 0; i < AssignmentGroup.length; i++) {
 
   }
 
-  
 }
+
+
 
 
 
@@ -123,9 +124,30 @@ function variable() {
   console.log(newLearner);
 }
 
-let holder = "";
-let holder2 = "";
-let holder3 = "";
+// Assignment Group Numbers
+let holder = 150;
+let holder2 = 50;
+let holder3 = 500;
+
+ //LearnerSubmissions
+ let newHolder = 47;
+ let newHolder2 = 150;
+ let newHolder3 = 400;
+ let newHolder4 = 39;
+
+ let operator = holder + holder2;
+ let operator2 = newHolder + holder;
+let operator3 = operator / operator2;
+
+//  The ID numbers 
+let idNumber = 125;
+let idNumber2 = 132;
+
+
+let print = `Hello, the learner with ID number ${idNumber} has the average number of ${operator3}`;
+console.log(print);
+
+
 
 
 
@@ -144,16 +166,8 @@ try {
     console.log("change points")
   }
 
-
-
 }
 catch(error) {
   console.result(error);
 }
-
-
-
-
-
-
 console.log("You're all set");
