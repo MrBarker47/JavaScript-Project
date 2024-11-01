@@ -104,9 +104,9 @@ const result = getLearnerData(CourseInfo, AssignmentGroup, LearnerSubmissions);
 
 //functions loops
 function tasks() {
-  for(let i = 0; i < AssignmentGroup.length; i++) {
+  for(let i = 0; i < AssignmentGroup.length; i++) {}
 
-  }
+
 
 }
 
@@ -135,16 +135,22 @@ let holder3 = 500;
  let newHolder3 = 400;
  let newHolder4 = 39;
 
- let operator = holder + holder2;
- let operator2 = newHolder + holder;
-let operator3 = operator / operator2;
+let operator = holder + holder2;
+let operator2 = newHolder + holder;
+let operator3 = operator2 / operator;
+let newOperator = newHolder4 + holder;
+
+let operator4 = newOperator / operator;
+
+
 
 //  The ID numbers 
 let idNumber = 125;
 let idNumber2 = 132;
 
 
-let print = `Hello, the learner with ID number ${idNumber} has the average number of ${operator3}`;
+let print = `Hello, the learner with ID number ${idNumber} has the average number of ${operator3} and 
+the next learner with the ID number with ${idNumber2} has the average number of ${operator4}`;
 console.log(print);
 
 
